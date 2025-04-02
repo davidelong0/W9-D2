@@ -8,7 +8,7 @@ const AllTheBooks = () => {
         {books.map((book) => (
           <Col key={book.asin} md={4} lg={3} sm={6}>
             <Card className="shadow-lg border-0 rounded-4 h-100 d-flex flex-column bg-dark text-light container-fluid img-fluid">
-              {/* Immagine con altezza fissa */}
+z
               <Card.Img 
   className="w-100" 
   variant="top" 
