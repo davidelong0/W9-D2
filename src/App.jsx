@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import MyNav from './components/MyNav';
 import MyFooter from './components/MyFooter';
 import Welcome from './components/Welcome';
-import AllTheBooks from './components/AllTheBooks';
 import SingleBook from './components/SingleBook';
 import onebook from './data/fantasy.json';
 import BookList from './components/BookList';
@@ -16,7 +15,7 @@ function App() {
 
       <SingleBook book={onebook[0]} /> 
 
-      <BookList books={onebook} /> 
+      <BookList books={onebook} />  
       
       <MyFooter />
     </>
@@ -24,3 +23,4 @@ function App() {
 }
 
 export default App;
+
